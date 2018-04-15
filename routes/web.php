@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('index'); });
+
+Route::get('/cake', function () {
+        return view('viewcake'); });
+
+Route::get('/pudding', function () {
+            return view('viewpudding'); });
+
+Route::get('/register', function () {
+                return view('register'); });
+
+Route::resource('/kue','KueController');
+
