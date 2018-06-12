@@ -4,14 +4,10 @@
 <title>Delicious Cake</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="<?php echo e(url('css/layout.css')); ?>" rel="stylesheet">
+<link href="{{ url('css/layout.css')}}" rel="stylesheet">
 </head>
 <body id="top">
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- Top Background Image Wrapper -->
-<div class="bgded" style="background-image:url('img/img5.jpg');"> 
+<div class="bgded" style="background-image:url('img/img15.jpg');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row0">
     <div id="topbar" class="hoc clear"> 
@@ -30,7 +26,7 @@
           <li><a class="faicon-dribble" href="#"><i class="fab fa-dribbble"></i></a></li>
           <li><a class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
           <li><a class="faicon-google-plus" href="#"><i class="fab fa-google-plus"></i></a></li>
-          <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li> 
+          <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
           <li><a class="faicon-rss" href="/register"><i class="fa fa-sign-in-alt"></i></a></li>
         </ul>
       </div>
@@ -48,16 +44,14 @@
     </header>
   </div>
   <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
   <div class="wrapper row2">
     <nav id="mainav" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <ul class="clear">
-        <li class="active"><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Home</a></li>
         <li><a href="#"><i class="far fa-caret-square-down"></i>Produk</a>
           <ul>
-            <li><a href="/cake">Cup Cake</a></li>
+            <li><a href="/cake">Cupcakes</a></li>
             <li><a href="/pudding">Pudding</a></li>
             <li><a href="/kering">Kue Kering</a></li>
             <li><a href="/basah">Kue Basah</a></li>
@@ -69,69 +63,51 @@
     </nav>
   </div>
   <!-- ################################################################################################ -->
-  <div class="wrapper overlay">
-    <div id="pageintro" class="hoc clear"> 
-      <!-- ################################################################################################ -->
-      <div class="introtxt">
-        <h2 class="heading underline center">Cake &amp; Tart</h2>
-        <p>MENYENANGKAN CUSTOMER DENGAN PRODUK-PRODUK KAMI DAN MENJADIKANNYA PENGGEMAR DELICIOUS CAKE.</p>
-      </div>
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <div class="clear"></div>
-    </div>
-  </div>
-  <!-- ################################################################################################ -->
-</div>
-<!-- End Top Background Image Wrapper -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
+  <div class="wrapper bgded overlay coloured" style="background-image:url('img/img29.jpg');">
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
-    <h2 class="heading font-x3 underline center btmspace-80">Produk Kami</h2>
-    <div class="group">
-      <div class="one_half first"><a href="#" class="imgoverlay btmspace-30"><img src="img/img8.jpg" alt=""></a>
-        <h2 class="heading underline">Lacinia mollis maecenas</h2>
-        <p>Proin scelerisque urna id magna ullamcorper vitae pretium quam ullamcorper phasellus id augue vel magna facilisis vestibulum nulla quis elementum turpis donec lacinia tempus dolor sit amet molestie quisque id lorem nec augue.</p>
-        <p><a class="btn medium" href="#">Interdum varius</a></p>
-      </div>
-      <div class="one_half">
-        <ul class="nospace group">
-          <li class="one_half first btmspace-15"><a href="#" class="imgoverlay"><img src="img/img16.jpg" alt=""></a></li>
-          <li class="one_half btmspace-15"><a href="#" class="imgoverlay"><img src="img/img10.jpg" alt=""></a></li>
-          <li class="one_half first"><a href="#" class="imgoverlay"><img src="img/img11.jpg" alt=""></a></li>
-          <li class="one_half"><a href="#" class="imgoverlay"><img src="img/img12.jpg" alt=""></a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- ################################################################################################ -->
-    <div class="clear"></div>
-  </section>
-</div>
-<!-- ################################################################################################ -->
-<div class="wrapper bgded overlay coloured" style="background-image:url('img/img15.jpg');">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <h2 class="heading font-x3 underline center btmspace-80">Testimoni Customer</h2>
+    <h2 class="heading font-x3 underline center btmspace-80">Kue Kering</h2>
     <ul class="nospace group">
       <li class="one_half first">
         <figure class="group event">
-          <div class="one_half first"><a href="#" class="imgoverlay"><img src="img/img14.jpg" alt=""></a></div>
+          <div class="one_half first"><a href="#" class="imgoverlay"><img src="img/img28.jpg" alt=""></a></div>
           <figcaption class="one_half">
-            <time datetime="2045-04-06"><strong class="posh">6</strong> April 2045</time>
-            <h4 class="heading">Magna molestie</h4>
-            <p>Neque nulla sodales magna neque a ullamcorper nibh iaculis id aenean&hellip;</p>
+           <strong class="posh">Choco Cookies
+            <h4 class="heading">IDR 65.000</h4>
+            <p>Choco Cookies yang dibuat dengan tingkat kemanisan yang tidak berlebihan dan berisi toping Choco cips&hellip;</p>
             <p><a class="btn small" href="#">View Details &raquo;</a></p>
           </figcaption>
         </figure>
       </li>
       <li class="one_half">
         <figure class="group event">
-          <div class="one_half first"><a href="#" class="imgoverlay"><img src="img/img13.jpg" alt=""></a></div>
+          <div class="one_half first"><a href="#" class="imgoverlay"><img src="img/img27.jpg" alt=""></a></div>
           <figcaption class="one_half">
-            <time datetime="2045-04-18"><strong class="posh">18</strong> April 2045</time>
-            <h4 class="heading">ultricies tellus</h4>
-            <p>Posuere lobortis augue non aliquet vestibulum efficitur dui sit amet&hellip;</p>
+            <strong class="posh">Maringue Taste
+            <h4 class="heading">IDR 90.000</h4>
+            <p>Maringue Taste ini memiliki resep yang cukup simple dan akan menemani hari rayamu dengan sweet treat satu ini.&hellip;</p>
+            <p><a class="btn small" href="#">View Details &raquo;</a></p>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="one_half first">
+        <figure class="group event">
+          <div class="one_half first"><a href="#" class="imgoverlay"><img src="img/img26.jpg" alt=""></a></div>
+          <figcaption class="one_half">
+           <strong class="posh">Cookies Mentega
+            <h4 class="heading">IDR 75.000</h4>
+            <p>Cookies Mentega adalah kudapan manis dan renyah ini memang selalu menggoda untuk disantap kapanpun dan dimanapun&hellip;</p>
+            <p><a class="btn small" href="#">View Details &raquo;</a></p>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="one_half">
+        <figure class="group event">
+          <div class="one_half first"><a href="#" class="imgoverlay"><img src="img/img25.jpg" alt=""></a></div>
+          <figcaption class="one_half">
+            <strong class="posh">Sugar Cookies
+            <h4 class="heading">IDR 79.000</h4>
+            <p>Sugar Cookies ini membuat kita tidak bosan dengan dan sangat cocok untuk sajian saat di hari raya.&hellip;</p>
             <p><a class="btn small" href="#">View Details &raquo;</a></p>
           </figcaption>
         </figure>
@@ -141,7 +117,6 @@
     <div class="clear"></div>
   </section>
 </div>
-<!-- ################################################################################################ -->
 <div class="wrapper row3">
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
@@ -189,7 +164,7 @@
 </div>
 <!-- ################################################################################################ -->
 <div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
+  <div id="copyright" class="hoc clear">
     <!-- ################################################################################################ -->
     <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Delicious Cake</a></p>
     <!-- ################################################################################################ -->
@@ -198,12 +173,12 @@
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a> 
 <!-- JAVASCRIPTS -->
-<script src="<?php echo e(url('js/jquery.min.js')); ?>"></script>
-<script src="<?php echo e(url('js/jquery.backtotop.js')); ?>"></script>
-<script src="<?php echo e(url('js/jquery.mobilemenu.js')); ?>"></script>
+<script src="{{ url('js/jquery.min.js')}}"></script>
+<script src="{{ url('js/jquery.backtotop.js')}}"></script>
+<script src="{{ url('js/jquery.mobilemenu.js')}}"></script>
 <!-- IE9 Placeholder Support -->
-<script src="<?php echo e(url('js/jquery.placeholder.min.js')); ?>"></script>
+<script src="{{ url('js/jquery.placeholder.min.js')}}"></script>
 <!-- / IE9 Placeholder Support -->
-<script src="<?php echo e(url('js/fontawesome-all.js')); ?>"></script>
+<script src="{{ url('js/fontawesome-all.js')}}"></script>
 </body>
 </html>

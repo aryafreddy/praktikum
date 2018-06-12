@@ -27,6 +27,7 @@
           <li><a class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
           <li><a class="faicon-google-plus" href="#"><i class="fab fa-google-plus"></i></a></li>
           <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
+          <li><a class="faicon-rss" href="/register"><i class="fa fa-sign-in-alt"></i></a></li>
         </ul>
       </div>
       <!-- ################################################################################################ -->
@@ -50,8 +51,10 @@
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#"><i class="far fa-caret-square-down"></i>Produk</a>
           <ul>
-            <li><a href="#">Cupcakes</a></li>
-            <li><a href="#">Pudding</a></li>
+            <li><a href="/cake">Cupcakes</a></li>
+            <li><a href="/pudding">Pudding</a></li>
+            <li><a href="/kering">Kue Kering</a></li>
+            <li><a href="/basah">Kue Basah</a></li>
           </ul>
         </li>
         <li><a href="#">About Us</a></li>
@@ -65,7 +68,7 @@
     <!-- ################################################################################################ -->
     <h2 class="heading font-x3 underline center btmspace-80">Cup Cake</h2>
     <ul class="nospace group">
-      <li class="one_half first">
+      <li class="one_half first" id="myTable">
         <figure class="group event">
           <div class="one_half first"><a href="#" class="imgoverlay"><img src="img/img18.jpg" alt=""></a></div>
           <figcaption class="one_half">

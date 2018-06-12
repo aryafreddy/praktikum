@@ -15,13 +15,19 @@ Route::get('/', function () {
     return view('index'); });
 
 Route::get('/cake', function () {
-        return view('viewcake'); });
+    return view('viewcake'); });
 
 Route::get('/pudding', function () {
-            return view('viewpudding'); });
+    return view('viewpudding'); });
+
+Route::get('/kering', function () {
+    return view('viewkering'); });
+
+Route::get('/basah', function () {
+    return view('viewbasah'); });
 
 Route::get('/register', function () {
-                return view('register'); });
+    return view('register'); });
 
 Route::resource('/kue','KueController');
 

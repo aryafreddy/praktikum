@@ -59,6 +59,8 @@
           <ul>
             <li><a href="/cake">Cup Cake</a></li>
             <li><a href="/pudding">Pudding</a></li>
+            <li><a href="/kering">Kue Kering</a></li>
+            <li><a href="/basah">Kue Basah</a></li>
           </ul>
         </li>
         <li><a href="#">About Us</a></li>
