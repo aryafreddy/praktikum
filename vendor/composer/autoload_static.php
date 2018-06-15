@@ -4,16 +4,16 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit20ebf16957ee1b790cef7b121ef24494
+class ComposerStaticInita44a91af72154c1ed56504474f573797
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
-        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
     );
@@ -100,8 +100,8 @@ class ComposerStaticInit20ebf16957ee1b790cef7b121ef24494
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -273,40 +273,43 @@ class ComposerStaticInit20ebf16957ee1b790cef7b121ef24494
     );
 
     public static $classMap = array (
+        'App\\Admins' => __DIR__ . '/../..' . '/app/Admins.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\DetPemesanan' => __DIR__ . '/../..' . '/app/DetPemesanan.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-        'App\\Http\\Controllers\\KueController' => __DIR__ . '/../..' . '/app/Http/Controllers/KueController.php',
+        'App\\Http\\Controllers\\DashboardController' => __DIR__ . '/../..' . '/app/Http/Controllers/DashboardController.php',
+        'App\\Http\\Controllers\\MessageController' => __DIR__ . '/../..' . '/app/Http/Controllers/MessageController.php',
+        'App\\Http\\Controllers\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Kue' => __DIR__ . '/../..' . '/app/Kue.php',
+        'App\\Member' => __DIR__ . '/../..' . '/app/Member.php',
+        'App\\Pemesanan' => __DIR__ . '/../..' . '/app/Pemesanan.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Tampilan' => __DIR__ . '/../..' . '/app/Tampilan.php',
+        'App\\Testimoni' => __DIR__ . '/../..' . '/app/Testimoni.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
-        'App\\admin' => __DIR__ . '/../..' . '/app/admin.php',
-        'App\\detail' => __DIR__ . '/../..' . '/app/detail.php',
-        'App\\kue' => __DIR__ . '/../..' . '/app/kue.php',
-        'App\\member' => __DIR__ . '/../..' . '/app/member.php',
-        'App\\pemesanan' => __DIR__ . '/../..' . '/app/pemesanan.php',
-        'App\\testimoni' => __DIR__ . '/../..' . '/app/testimoni.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
-        'CreateDetail' => __DIR__ . '/../..' . '/database/migrations/2018_06_09_164949_create_detail.php',
-        'CreateTabelAdmins' => __DIR__ . '/../..' . '/database/migrations/2018_06_09_161640_create_tabel_admins.php',
-        'CreateTabelKue' => __DIR__ . '/../..' . '/database/migrations/2018_06_09_160133_create_tabel_kue.php',
-        'CreateTabelMember' => __DIR__ . '/../..' . '/database/migrations/2018_06_09_161614_create_tabel_member.php',
-        'CreateTabelPemesanan' => __DIR__ . '/../..' . '/database/migrations/2018_06_09_161548_create_tabel_pemesanan.php',
-        'CreateTabelTestimoni' => __DIR__ . '/../..' . '/database/migrations/2018_06_09_161600_create_tabel_testimoni.php',
+        'CreateTabelAdmin' => __DIR__ . '/../..' . '/database/migrations/2018_06_15_135024_create_tabel_admin.php',
+        'CreateTabelDetail' => __DIR__ . '/../..' . '/database/migrations/2018_06_15_135033_create_tabel_detail.php',
+        'CreateTabelKue' => __DIR__ . '/../..' . '/database/migrations/2018_06_15_134920_create_tabel_kue.php',
+        'CreateTabelPemesanan' => __DIR__ . '/../..' . '/database/migrations/2018_06_15_134943_create_tabel_pemesanan.php',
+        'CreateTabelTestimoni' => __DIR__ . '/../..' . '/database/migrations/2018_06_15_134955_create_tabel_testimoni.php',
+        'CreateTabelUser' => __DIR__ . '/../..' . '/database/migrations/2018_06_15_135007_create_tabel_user.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/DayOfMonthField.php',
@@ -3330,10 +3333,10 @@ class ComposerStaticInit20ebf16957ee1b790cef7b121ef24494
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit20ebf16957ee1b790cef7b121ef24494::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit20ebf16957ee1b790cef7b121ef24494::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit20ebf16957ee1b790cef7b121ef24494::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit20ebf16957ee1b790cef7b121ef24494::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita44a91af72154c1ed56504474f573797::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita44a91af72154c1ed56504474f573797::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInita44a91af72154c1ed56504474f573797::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInita44a91af72154c1ed56504474f573797::$classMap;
 
         }, null, ClassLoader::class);
     }

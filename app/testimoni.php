@@ -4,12 +4,11 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class testimoni extends Model
+class Testimoni extends Model
 {
-    protected $fillable = [
-        'id_member','testimoni'
-];
+    protected $table = "testimonis";
+
     public function member(){
-        return $this->BelongsTo('App\member');
+        return $this->belongsTo('App\Member', 'id');
     }
 }
