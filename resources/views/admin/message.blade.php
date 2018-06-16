@@ -43,8 +43,8 @@
 		</form>
 		<ul class="nav menu">
             <li><a href="/dashboard"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
-            <li class="active"><a><em class="fa fa-cart-plus">&nbsp;</em> Product</a></li>
-            <li><a href="/message"><em class="fa fa-comments">&nbsp;</em> Message</a></li>
+            <li><a href="/message"><em class="fa fa-cart-plus">&nbsp;</em> Product</a></li>
+            <li class="active"><a><em class="fa fa-comments">&nbsp;</em> Message</a></li>
 			<li><a href="/login"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
 		</ul>
 	</div><!--/.sidebar-->

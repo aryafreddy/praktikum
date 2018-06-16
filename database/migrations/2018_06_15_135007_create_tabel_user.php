@@ -15,7 +15,7 @@ class CreateTabelMember extends Migration
     {
         schema::create('users', function (Blueprint $table){
             $table->increments('id');
-            $table->string('nama_member', 30);
+            $table->string('name', 30);
             $table->string('alamat', 30);
             $table->string('email', 30);
             $table->string('no_hp', 15);
